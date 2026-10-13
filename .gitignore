@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+_smoke/
+*/work/
+*/data/
+*/build/
+*/chunks/
+*/out/

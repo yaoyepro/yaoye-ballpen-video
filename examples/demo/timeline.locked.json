@@ -1,0 +1,93 @@
+{
+ "title": "DEMO",
+ "audio": "audio/demo_song.mp3",
+ "song_duration": 17.0,
+ "video_offset_s": 1.0,
+ "notes": [
+  "DEMO timeline written by hand for the generated demo song (make_demo_audio.py) - no ASR needed",
+  "video time = song time + lead_in",
+  "lyric text is used VERBATIM by the engine"
+ ],
+ "tempo_bpm": 120.0,
+ "beats_song_time": [
+  0.0,
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.5,
+  3.0,
+  3.5,
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  6.0,
+  6.5,
+  7.0,
+  7.5,
+  8.0,
+  8.5,
+  9.0,
+  9.5,
+  10.0,
+  10.5,
+  11.0,
+  11.5,
+  12.0,
+  12.5,
+  13.0,
+  13.5,
+  14.0,
+  14.5,
+  15.0,
+  15.5
+ ],
+ "lines": [
+  {
+   "i": 1,
+   "section": "Verse",
+   "text": "夜色落在小窗台",
+   "song_start": 0.5,
+   "song_end": 3.5,
+   "video_start": 1.5,
+   "video_end": 4.5,
+   "confidence": "manual",
+   "match": 1.0
+  },
+  {
+   "i": 2,
+   "section": "Verse",
+   "text": "月亮挂在屋檐外",
+   "song_start": 4.5,
+   "song_end": 7.5,
+   "video_start": 5.5,
+   "video_end": 8.5,
+   "confidence": "manual",
+   "match": 1.0
+  },
+  {
+   "i": 3,
+   "section": "Verse",
+   "text": "星星一颗颗醒来",
+   "song_start": 8.5,
+   "song_end": 11.5,
+   "video_start": 9.5,
+   "video_end": 12.5,
+   "confidence": "manual",
+   "match": 1.0
+  },
+  {
+   "i": 4,
+   "section": "Verse",
+   "text": "晚安轻轻写下来",
+   "song_start": 12.5,
+   "song_end": 16.0,
+   "video_start": 13.5,
+   "video_end": 17.0,
+   "confidence": "manual",
+   "match": 1.0
+  }
+ ],
+ "locked": true
+}

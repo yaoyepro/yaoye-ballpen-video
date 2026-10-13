@@ -1,0 +1,84 @@
+{
+ "version": 1,
+ "input_mode": "poem",
+ "title": "静夜思",
+ "subtitle": "",
+ "pace": "calm",
+ "mood": "quiet, nostalgic, moonlit night",
+ "title_card": {
+  "doodles": [
+   "moon"
+  ]
+ },
+ "pages": [
+  {
+   "id": "p1",
+   "text": [
+    "床前明月光，"
+   ],
+   "layout": "text-left",
+   "transition": "flip",
+   "mood": "quiet",
+   "main": {
+    "doodle": "moon"
+   },
+   "extras": [
+    "stars"
+   ],
+   "background": [
+    "night",
+    "ground"
+   ]
+  },
+  {
+   "id": "p2",
+   "text": [
+    "疑是地上霜。"
+   ],
+   "layout": "text-left",
+   "transition": "small_erase",
+   "mood": "quiet",
+   "extras": [
+    "snowflake"
+   ]
+  },
+  {
+   "id": "p3",
+   "text": [
+    "举头望明月，"
+   ],
+   "layout": "text-right",
+   "transition": "erase",
+   "mood": "quiet",
+   "main": {
+    "doodle": "moon"
+   },
+   "extras": [
+    "stars"
+   ],
+   "background": [
+    "night",
+    "ground"
+   ]
+  },
+  {
+   "id": "p4",
+   "text": [
+    "低头思故乡。"
+   ],
+   "layout": "text-right",
+   "transition": "small_erase",
+   "mood": "quiet",
+   "extras": [
+    "house"
+   ]
+  }
+ ],
+ "end_card": {
+  "text": "",
+  "doodles": [
+   "sparkle"
+  ],
+  "transition": "erase"
+ }
+}

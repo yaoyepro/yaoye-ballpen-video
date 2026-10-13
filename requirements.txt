@@ -1,0 +1,9 @@
+# core (stages 2-6): sprite prep, render orchestration, checks
+numpy>=1.24
+opencv-python-headless>=4.8
+scikit-image>=0.21
+Pillow>=10
+scipy>=1.10
+soundfile>=0.12
+librosa>=0.10
+fonttools>=4.40

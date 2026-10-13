@@ -1,0 +1,31 @@
+{
+ "title": "和太阳奔跑",
+ "mode": "script",
+ "script": "script.json",
+ "language": "zh",
+ "fps": 60,
+ "phone_fps": 30,
+ "sample_seconds": 20,
+ "scenes": "scenes.js",
+ "sprites_dir": "sprites",
+ "sprites": {},
+ "logo": null,
+ "credits": [],
+ "music": {
+  "mode": "none"
+ },
+ "foley": {
+  "enabled": true,
+  "level_db": -24
+ },
+ "prep": {
+  "accent": {
+   "enabled": false
+  }
+ },
+ "render": {
+  "workers": 0,
+  "chunk_seconds": 3
+ },
+ "output_name": "run_with_sun"
+}

@@ -1,0 +1,22 @@
+{
+  "_comment": "Default visual preset 'ballpoint' (blue ballpoint pen on cream lined notebook paper). Documented in references/STYLE.md. A project may override any key under \"style\" / \"palette\" / \"paper\" in project.json, but the defaults ARE the style - change them only on purpose.",
+  "palette": {"paper": "#F5F0E2", "rule": "rgba(110,150,205,.42)", "margin": "rgba(214,84,84,.62)",
+              "b": "#2440B8", "r": "#C23038", "g": "#1F8A4C"},
+  "paper": {"rule_top": 150, "rule_gap": 44, "margin_x": 132, "rule_w": 1.6, "margin_w": 2.2, "grain": 9, "blotch": 6},
+  "fonts": [{"family": "Yozai", "file": "@skill/fonts/Yozai-Regular.ttf"}],
+  "hand_font": "Yozai",
+  "style": {
+    "stroke": {"w": 2.3, "a": 0.9, "w_var": [0.78, 0.44], "a_var": [0.68, 0.32], "w_noise_freq": 0.04, "a_noise_freq": 0.025,
+               "taper_min": 0.45, "taper_len": 10, "segment_px": 9, "blob_p": 0.07, "blob_r": 1.15, "blob_a": 0.85,
+               "wobble_amp": 1.0, "wobble_freq": 0.03, "resample_px": 6},
+    "sprite": {"line_w": 3.2, "line_a": 0.93, "line_wobble": 0.5, "accent_w": 2.0, "accent_a": 0.9, "red_w": 2.2, "red_a": 0.9,
+               "hatch_w_light": 1.7, "hatch_w_dark": 1.55, "hatch_a_light": 0.72, "hatch_a_dark": 0.78, "hatch_a_red": 0.75},
+    "hatch": {"w": 1.6, "a": 0.72, "maxlen": 110, "row_jitter": 0.18, "mid_jitter": 1.6,
+              "layers": [{"ang": 52, "sp": 7.5}, {"ang": -38, "sp": 6.5}, {"ang": 8, "sp": 5.0}, {"ang": 95, "sp": 4.6}]},
+    "text": {"size": 60, "size_jitter": 0.16, "rot_jitter_rad": 0.157, "baseline_jitter": [0.11, 0.06], "slope": 0.035,
+             "tracking": 0.98, "tracking_jitter": 0.12, "ink_var": [0.8, 0.2], "sec_per_char": 0.1, "min_line_s": 0.62, "max_line_s": 1.35},
+    "pen": {"angle_rad": -1.08, "length_px": 600, "idle_fade_s": 0.4, "stroke_ease": 0.55},
+    "transitions": {"flip_s": 0.5, "page_erase_s": 0.8, "small_erase_s": 0.5, "pen_idle_before_s": 0.3},
+    "motion": {"breathe_amp": 0.011, "breathe_period": 3.2, "max_reversals_per_s": 6, "min_period_s": 0.9}
+  }
+}

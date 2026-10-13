@@ -1,0 +1,13 @@
+{
+  "name": "yaoye-ballpen-video",
+  "version": "1.0.1",
+  "private": true,
+  "description": "瑶叶·圆珠笔版: theme/keywords/copy/poem/article/song -> hand-drawn ballpoint-pen notebook video (render engine)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "skia-canvas": "^3.0.8"
+  }
+}

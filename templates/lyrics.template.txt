@@ -1,0 +1,5 @@
+[Verse 1]
+first sung line, exactly as sung (one line per row)
+second sung line
+[Chorus]
+chorus line 1

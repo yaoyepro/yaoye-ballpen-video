@@ -1,0 +1,19 @@
+{
+  "title": "",
+  "mode": "script",
+  "script": "script.json",
+  "language": "zh",
+  "fps": 60,
+  "phone_fps": 30,
+  "sample_seconds": 20,
+  "scenes": "scenes.js",
+  "sprites_dir": "sprites",
+  "sprites": {},
+  "logo": null,
+  "credits": [],
+  "music": {"mode": "none", "file": null, "offset": 0.0, "fade_in": 0.5, "fade_out": 2.0, "lufs": -16},
+  "foley": {"enabled": true, "level_db": -24},
+  "prep": {"accent": {"enabled": false}},
+  "render": {"workers": 0, "chunk_seconds": 3},
+  "output_name": "my_ballpen_film"
+}

@@ -1,0 +1,62 @@
+{
+ "version": 1,
+ "input_mode": "theme",
+ "title": "晚安，小星星",
+ "subtitle": "",
+ "pace": "calm",
+ "mood": "tender lullaby, warm, sleepy night",
+ "target_duration": 22,
+ "title_card": {
+  "doodles": [
+   "moon"
+  ]
+ },
+ "pages": [
+  {
+   "id": "p1",
+   "text": [
+    "今天也笑了好多次"
+   ],
+   "layout": "text-left",
+   "main": {
+    "sprite": "my_happy"
+   },
+   "extras": [
+    "hearts"
+   ],
+   "background": [
+    "wash",
+    "ground"
+   ],
+   "transition": "flip",
+   "mood": "playful"
+  },
+  {
+   "id": "p2",
+   "text": [
+    "星星亮了",
+    "该睡觉啦"
+   ],
+   "layout": "text-right",
+   "main": {
+    "sprite": "my_sleepy"
+   },
+   "extras": [
+    "stars"
+   ],
+   "background": [
+    "night",
+    "ground"
+   ],
+   "transition": "erase",
+   "mood": "lullaby"
+  }
+ ],
+ "end_card": {
+  "text": "晚安",
+  "doodles": [
+   "moon"
+  ],
+  "transition": "erase"
+ }
+}

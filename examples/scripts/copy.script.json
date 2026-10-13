@@ -1,0 +1,17 @@
+{
+ "version": 1,
+ "input_mode": "copy",
+ "title": "窗台上的小花",
+ "subtitle": "",
+ "pace": "normal",
+ "mood": "gentle, morning light, quiet growth",
+ "target_duration": 28,
+ "title_card": {"doodles": ["flower"]},
+ "pages": [
+  {"id": "p1", "text": ["每天早上七点", "我都会给窗台上的小花浇水"], "layout": "text-left", "main": {"doodle": "window"}, "extras": ["sun"], "background": "ground", "transition": "flip", "mood": "morning routine"},
+  {"id": "p2", "text": ["它不说话"], "layout": "text-right", "main": {"doodle": "sprout"}, "extras": ["sparkle"], "background": ["wash", "ground"], "transition": "erase", "mood": "quiet"},
+  {"id": "p3", "text": ["却一天比一天高"], "extras": ["arrow"], "transition": "small_erase", "mood": "growing"},
+  {"id": "p4", "text": ["原来认真生活的样子", "就是这么安静"], "layout": "text-top", "main": {"doodle": "flower"}, "extras": ["heart"], "background": "ground", "transition": "flip", "mood": "warm close"}
+ ],
+ "end_card": {"text": "", "doodles": ["hearts"], "transition": "erase"}
+}

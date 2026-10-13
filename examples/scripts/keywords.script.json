@@ -1,0 +1,17 @@
+{
+ "version": 1,
+ "input_mode": "keywords",
+ "title": "雨天的书店",
+ "subtitle": "",
+ "pace": "calm",
+ "mood": "cozy, rainy afternoon, warm and quiet",
+ "target_duration": 30,
+ "title_card": {"doodles": ["umbrella"]},
+ "pages": [
+  {"id": "p1", "text": ["下雨了", "街角的书店还亮着"], "layout": "text-left", "main": {"doodle": "house"}, "extras": ["rain"], "background": ["wash", "ground"], "transition": "flip", "mood": "rain, calm"},
+  {"id": "p2", "text": ["翻开一本旧书"], "layout": "text-right", "main": {"doodle": "book"}, "extras": ["sparkle"], "background": "ground", "transition": "erase", "mood": "curious"},
+  {"id": "p3", "text": ["书里夹着一封旧信"], "extras": ["letter"], "transition": "small_erase", "mood": "surprise"},
+  {"id": "p4", "text": ["热可可慢慢变凉", "雨也停了"], "layout": "text-top", "main": {"doodle": "cup"}, "extras": ["heart"], "background": "ground", "transition": "flip", "mood": "warm, resolving"}
+ ],
+ "end_card": {"text": "下次雨天见", "doodles": ["umbrella"], "transition": "erase"}
+}

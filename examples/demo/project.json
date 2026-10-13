@@ -1,0 +1,45 @@
+{
+  "title": "DEMO",
+  "audio": "audio/demo_song.mp3",
+  "lyrics": "lyrics.txt",
+  "language": "zh",
+  "lead_in": 1.0,
+  "tail": 0.0,
+  "audio_fade_out": 1.0,
+  "fps": 60,
+  "phone_fps": 30,
+  "sample_seconds": 15,
+  "scenes": "scenes.js",
+  "sprites_dir": "sprites",
+  "sprites": {},
+  "fonts": [
+    {
+      "family": "Yozai",
+      "file": "@skill/fonts/Yozai-Regular.ttf"
+    }
+  ],
+  "hand_font": "Yozai",
+  "logo": {
+    "file": "logo/demo_logo.svg",
+    "height": 60,
+    "right": 58,
+    "top": 45,
+    "ink": 0.82
+  },
+  "credits": [
+    "Lyrics: placeholder text",
+    "Music: generated demo track"
+  ],
+  "asr": {
+    "model": "large-v3",
+    "device": "auto",
+    "demucs": true
+  },
+  "prep": {
+    "accent": {
+      "enabled": false
+    }
+  },
+  "output_name": "demo_mv",
+  "timeline_seed": "timeline.locked.json"
+}

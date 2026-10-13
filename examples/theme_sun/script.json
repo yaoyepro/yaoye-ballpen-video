@@ -1,0 +1,105 @@
+{
+ "version": 1,
+ "input_mode": "theme",
+ "title": "和太阳奔跑",
+ "subtitle": "",
+ "pace": "normal",
+ "mood": "bright, hopeful, light running rhythm; warm morning to golden evening",
+ "target_duration": 33,
+ "title_card": {
+  "doodles": [
+   "sun"
+  ]
+ },
+ "pages": [
+  {
+   "id": "p1",
+   "text": [
+    "清晨，太阳敲我的窗"
+   ],
+   "layout": "text-left",
+   "main": {
+    "doodle": "sunrise"
+   },
+   "extras": [
+    "birds"
+   ],
+   "background": "sky",
+   "transition": "flip",
+   "mood": "waking up, gentle"
+  },
+  {
+   "id": "p2",
+   "text": [
+    "系好鞋带",
+    "我们出发吧"
+   ],
+   "layout": "text-right",
+   "main": {
+    "doodle": "sneaker"
+   },
+   "extras": [
+    "speed"
+   ],
+   "background": [
+    "wash",
+    "ground"
+   ],
+   "transition": "erase",
+   "mood": "excited start"
+  },
+  {
+   "id": "p3",
+   "text": [
+    "风在耳边唱歌"
+   ],
+   "extras": [
+    "wind"
+   ],
+   "transition": "small_erase",
+   "mood": "running, airy"
+  },
+  {
+   "id": "p4",
+   "text": [
+    "影子追着我",
+    "跑过整条小路"
+   ],
+   "layout": "text-top",
+   "main": {
+    "doodle": "road"
+   },
+   "extras": [
+    "footprints",
+    "flower"
+   ],
+   "transition": "flip",
+   "mood": "playful chase",
+   "background": "ground"
+  },
+  {
+   "id": "p5",
+   "text": [
+    "太阳笑着说：",
+    "明天还一起跑！"
+   ],
+   "layout": "text-left",
+   "main": {
+    "doodle": "sun"
+   },
+   "extras": [
+    "heart"
+   ],
+   "background": "sky",
+   "transition": "erase",
+   "mood": "warm, golden, resolving"
+  }
+ ],
+ "end_card": {
+  "text": "一起奔跑吧",
+  "doodles": [
+   "hearts"
+  ],
+  "transition": "erase"
+ }
+}

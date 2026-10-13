@@ -1,0 +1,20 @@
+{
+ "version": 1,
+ "input_mode": "article",
+ "title": "社区图书角改造记",
+ "subtitle": "",
+ "pace": "normal",
+ "mood": "bright, community, hopeful",
+ "target_duration": 45,
+ "title_card": {"doodles": ["book"]},
+ "pages": [
+  {"id": "p1", "text": ["去年九月", "闲置的自行车棚变成了图书角"], "layout": "text-left", "main": {"doodle": "house"}, "extras": ["sparkle"], "background": "ground", "transition": "flip", "mood": "start"},
+  {"id": "p2", "text": ["只用了三个周末"], "layout": "text-right", "main": {"doodle": "clock"}, "extras": ["arrow"], "background": "ground", "transition": "erase", "mood": "busy"},
+  {"id": "p3", "text": ["二十张旧木板 六盏台灯", "一千二百本书 都来自居民"], "extras": ["hearts"], "transition": "small_erase", "mood": "together"},
+  {"id": "p4", "text": ["早八点到晚九点开放", "不用借书证 看完放回原处"], "layout": "text-top", "main": {"doodle": "lamp"}, "extras": ["book"], "background": ["wash", "ground"], "transition": "flip", "mood": "open, easy"},
+  {"id": "p5", "text": ["每天四十多位居民来看书", "一半是孩子"], "layout": "text-left", "main": {"doodle": "book"}, "extras": ["star"], "background": "ground", "transition": "erase", "mood": "lively"},
+  {"id": "p6", "text": ["最受欢迎：绘本和旅行书"], "extras": ["plane"], "transition": "small_erase", "mood": "joy"},
+  {"id": "p7", "text": ["下一步：周末换书集市", "让每本书走得更远"], "layout": "text-right", "main": {"doodle": "road"}, "extras": ["footprints"], "background": "ground", "transition": "flip", "mood": "hopeful close"}
+ ],
+ "end_card": {"text": "欢迎来看书", "doodles": ["heart"], "transition": "erase"}
+}

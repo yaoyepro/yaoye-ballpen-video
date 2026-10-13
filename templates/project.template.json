@@ -1,0 +1,28 @@
+{
+  "title": "Song Title",
+  "audio": "audio/song.mp3",
+  "lyrics": "lyrics.txt",
+  "language": "zh",
+  "lead_in": 1.5,
+  "tail": 0.0,
+  "audio_fade_out": 2.0,
+  "fps": 60,
+  "phone_fps": 30,
+  "sample_seconds": 25,
+  "scenes": "scenes.js",
+  "sprites_dir": "sprites",
+  "sprites": {
+    "hero_sleep": {"height": 470},
+    "hero_laugh": {"height": 480}
+  },
+  "fonts": [{"family": "Yozai", "file": "@skill/fonts/Yozai-Regular.ttf"}],
+  "hand_font": "Yozai",
+  "palette": {"paper": "#F5F0E2", "rule": "rgba(110,150,205,.42)", "margin": "rgba(214,84,84,.62)", "b": "#2440B8", "r": "#C23038", "g": "#1F8A4C"},
+  "paper": {"rule_top": 150, "rule_gap": 44, "margin_x": 132},
+  "logo": null,
+  "credits": ["Lyrics: NAME", "Music: NAME"],
+  "asr": {"model": "large-v3", "device": "auto", "compute_type": "auto", "demucs": true},
+  "prep": {"accent": {"enabled": false}},
+  "render": {"workers": 0, "chunk_seconds": 3},
+  "output_name": "my_lyric_mv"
+}

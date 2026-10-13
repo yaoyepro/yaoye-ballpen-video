@@ -1,0 +1,6 @@
+# stage 1 only (audio -> timeline). Heavy: pulls torch.
+# GPU (NVIDIA): install the CUDA build of torch first (https://pytorch.org/get-started/locally/), then this file.
+# faster-whisper on GPU also needs cuBLAS + cuDNN 9 for CUDA 12 (Windows: put their DLLs on PATH); CPU int8 works everywhere.
+-r requirements.txt
+faster-whisper>=1.0
+demucs>=4.0
