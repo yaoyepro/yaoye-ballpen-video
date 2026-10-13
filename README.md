@@ -51,6 +51,8 @@
 
 ## 开始使用
 
+> 当前为 1.0.1 首次公开预览。本次 Windows 完整构建流程尚未通过，使用前请阅读[实际验证与已知限制](references/release-verification.md)，先制作短样片。
+
 **平台：Windows · macOS · Linux**<br>
 **助手：Codex · Claude Code · WorkBuddy · Grok Bot**，以及任何能读取文件并运行命令的 AI 助手（没有 Skill 加载功能时，让它读取本文件夹的 `SKILL.md` 和 `AGENTS.md`）。[平台与助手说明](references/compatibility.md)
 
